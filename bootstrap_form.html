@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap Form</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="resources/bootstrap/css/bootstrap.min.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="resources/bootstrap/js/bootstrap.min.js"></script>
+    <style>
+
+        div.container{
+            margin: 300px auto;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4">
+            <form method="post" action="test.php">
+
+                <div class="form-group">
+                    <label for="BookName" >Book Name: </label>
+                    <input class="form-control" type="text" name="BookName" id="BookName">
+                </div>
+
+                <div class="form-group">
+                    <label for="AuthorName">Author Name: </label>
+                    <input class="form-control" type="text" name="AuthorName" id="AuthorName">
+                </div>
+
+                <input type="submit" class="btn btn-success" value="Submit">
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
